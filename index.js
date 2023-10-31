@@ -1,33 +1,39 @@
-function scuberGreetingForFeet(){
-  // Write your code here!
-  function scuberGreetingForFeet (distance) {
-    if (distance <= 400) {
-      return 'This one is on me!';
-    }
-    else if (distance > 400 && distance <= 2000) {
-      return 'That will be twenty bucks.';
-    }
-    else if (distance > 2000 && distance <= 2500) {
-      return 'I will gladly take your thirty bucks.';
-    }
-    else {
-      return 'No can do.';
-    }
+function scuberGreetingForFeet(dist){
+  
+  if (dist <= 400){
+    return "This one is on me!"
+  }
+  else if ((dist>400) && (dist<=2000)) {
+    return "That will be twenty bucks."
+  }
+  else if  ((dist>2000) && (dist<=2500)) {
+    return "I will gladly take your thirty bucks."
+  }
+  else {
+    return "No can do."
   }
 }
-  // tenrenary operator
-  function ternaryCheckCity (city) {
-   return city === 'NYC'? 'Ok, sounds good.': 'No go.';
+
+function ternaryCheckCity(city){
+  
+  if (city === "NYC"){
+    return "Ok, sounds good."
+  }
+  else{
+    return "No go."
+  }
+}
+
+function switchOnCharmFromTip(tip){
+  
+  if (tip === 'generous'){
+    return "Thank you so much."
+  }
+  else if (tip === 'not as generous'){
+    return "Thank you."
+  }
+  else{
+    return "Bye."
   }
   
-  // switch statements
-  function switchOnCharmFromTip (tip) {
-    switch (tip) {
-      case 'generous':
-        return 'Thank you so much.';
-      case 'not as generous':
-        return 'Thank you.';
-      default:
-        return 'Bye.';
-    }
-  }
+}

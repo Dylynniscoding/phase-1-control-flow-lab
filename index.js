@@ -14,6 +14,7 @@ function scuberGreetingForFeet(){
       return 'No can do.';
     }
   }
+}
   // tenrenary operator
   function ternaryCheckCity (city) {
    return city === 'NYC'? 'Ok, sounds good.': 'No go.';

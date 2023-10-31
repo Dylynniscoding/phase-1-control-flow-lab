@@ -5,9 +5,9 @@
     "passes": 5,
     "pending": 0,
     "failures": 4,
-    "start": "2023-10-31T04:05:31.751Z",
-    "end": "2023-10-31T04:05:32.377Z",
-    "duration": 626
+    "start": "2023-10-31T04:06:37.831Z",
+    "end": "2023-10-31T04:06:38.366Z",
+    "duration": 535
   },
   "tests": [
     {
@@ -68,7 +68,7 @@
     {
       "title": "should return \"No go.\" if the destination city is not NYC",
       "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -82,7 +82,7 @@
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -156,7 +156,7 @@
     {
       "title": "should return \"No go.\" if the destination city is not NYC",
       "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -170,7 +170,7 @@
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
